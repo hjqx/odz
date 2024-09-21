@@ -7,4 +7,4 @@ def mix (varnames : object, consts : object):
         consts.__code__.co_consts))
 
 d = (lambda e : mix(e,e))(x)
-print(d["c"]) # 0,1
+print(d["c"]) # (0,1)
